@@ -1,0 +1,17 @@
+* {
+    background: silver;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', san-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2, p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.previousHighScores {
+    font-weight: bold;
+}
