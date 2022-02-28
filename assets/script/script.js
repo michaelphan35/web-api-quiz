@@ -64,6 +64,8 @@ const questions = [
         choices: [
             "a. True",
             "b. False",
+            "c. Maybe True",
+            "d. Maybe False",
         ],
         answer: "a. True"
     },
@@ -122,6 +124,8 @@ const questions = [
         choices: [
             "a. True",
             "b. False",
+            "c. Maybe True",
+            "d. Maybe False",
         ],
         answer: "a. True"
     },

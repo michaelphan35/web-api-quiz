@@ -24,7 +24,7 @@
 
         <!--Questions Container-->
         <!--Start quiz container w/button-->
-        <div id="container" class="row text-left">
+        <div id="container" class="row text-center justify-content-center">
             <div class="col-md-2"></div>
                 <main class="col-md 8 mt-5">
                     <div id="startDiv" class="m-2 justify-content-center">
@@ -33,17 +33,17 @@
                             Click the button below to start the javascript coding quiz. Note that
                             each incorrect answer will decrease your overall time.
                         </p>
-                        <button type="button" id="start-quiz-button" class="btn btn-success ml-5 align-center">Start Quiz!</button>
+                        <button type="button" id="start-quiz-button" class="btn btn-dark ml-5 align-center">Start Quiz!</button>
                     </div>
 
                     <!--question div-->
                   <div id="questionDiv" style="display: none;">
                     <p id="questionTitle" class="pl-5 ml-2 pt-5 justify-content-center"></p>
                     <div class="pl-5 pt-2 pb-3 m-2 justify-content-center">
-                        <p><button id="choiceA" class="btn btn-info"></button></p>
-                        <p><button id="choiceB" class="btn btn-info"></button></p>
-                        <p><button id="choiceC" class="btn btn-info"></button></p>
-                        <p><button id="choiceD" class="btn btn-info"></button></p>
+                        <p><button id="choiceA" class="btn btn-dark btn-outline-light"></button></p>
+                        <p><button id="choiceB" class="btn btn-dark btn-outline-light"></button></p>
+                        <p><button id="choiceC" class="btn btn-dark btn-outline-light"></button></p>
+                        <p><button id="choiceD" class="btn btn-dark btn-outline-light"></button></p>
                         <hr id="lineBreak" style="display: none;" class="mt-4">
                         <p id="answerCheck" style="display: none;"></p>
                     </div>
@@ -56,7 +56,7 @@
                             <h2 class="pt-2 pb-3">Final Score: <span id="finalScore"></span> !</h2>
                             <form>
                                 <p class="pt-2 pb-3 m-2">Enter your initials: <input id="initialsInput" class="form-control pt-2 pb-3 mt-2" type="text">
-                                <button type="submit" id="submitInitialsBtn" class="btn btn-info mt-3">Submit</button>
+                                <button type="submit" id="submitInitialsBtn" class="btn btn-dark btn-outline-light mt-3">Submit</button>
                                 </p>
                             </form>
                         </div>
@@ -69,8 +69,8 @@
                         <div id="highScoreList" class="list-group list-group-flush pt-2 pb-3 mb-2"></div>
 
                         <p>
-                            <button type="submit" class="btn btn-info-3 mt-3 mr-3" id="goBackBtn">Back</button>
-                            <button type="submit" class="btn btn-info-3 mt-3 mr-3" id="clearHighScoresBtn">Clear High Scores</button>
+                            <button type="submit" class="btn btn-dark btn-outline-light-3 mt-3 mr-3" id="goBackBtn">Back</button>
+                            <button type="submit" class="btn btn-dark btn-outline-light-3 mt-3 mr-3" id="clearHighScoresBtn">Clear High Scores</button>
                         </p>
                     </div>
 

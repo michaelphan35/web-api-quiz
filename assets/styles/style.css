@@ -1,6 +1,7 @@
 * {
-    background: silver;
+    background: rgb(17, 219, 219);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', san-serif;
+    color: white;
 }
 
 h1 {
@@ -12,6 +13,12 @@ h2, p {
     font-weight: bold;
 }
 
-.previousHighScores {
+#timer {
+    font-size: 20px;
+}
+
+#previousHighScores {
     font-weight: bold;
+    text-decoration: none;
+    color: white;
 }
